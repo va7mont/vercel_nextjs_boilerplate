@@ -10,7 +10,7 @@ export default function Home() {
 		if (window.Telegram && window.Telegram.WebApp) {
 			setTg(window.Telegram.WebApp)
 		}
-	}, [window.Telegram.WebApp])
+	}, [window.Telegram])
 
 	return (
 		<div className={styles.container}>
